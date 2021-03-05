@@ -1,4 +1,21 @@
+// PROVA FINALE
+for (var i = 1; i < 101; i++) {
+  if (i %15 == 0) {
+    document.getElementById('numeri').innerHTML += "<li>" + "FIzzBuzz" + "</li>";
+  }
+  else if (i %5 == 0){
+    document.getElementById('numeri').innerHTML += "<li>" + "Buzz" + "</li>";
+  }
+  else if (i %3 == 0){
+    document.getElementById('numeri').innerHTML += "<li>" + "Fizz" + "</li>";
+  }
+  else{
+    document.getElementById('numeri').innerHTML += "<li>" + i + "</li>";
+  }
+}
 
+
+// VARIE PROVE
 
 // for (var i = 2; i <= 100; i++) {
 //   numeri.push(i);
@@ -14,20 +31,6 @@
 // }
 
 
-for (var i = 1; i < 101; i++) {
-  if (i %15 == 0) {
-    console.log("FizzBuzz");
-  }
-  else if (i %5 == 0){
-    console.log("Buzz");
-  }
-  else if (i %3 == 0){
-    console.log("Fizz");
-  }
-  else{
-    console.log(i);
-  }
-}
 
 
 // for (var i=1; i < 101; i++){
